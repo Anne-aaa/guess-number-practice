@@ -16,6 +16,7 @@ class NumberGuesserTest {
   private NumberGenerator numberGenerator;
   private NumberGuesser numberGuesser;
 
+  //在当前类别中的每个@Test方法之前执行此注解
   @BeforeEach
   void setUp() {
     given(numberGenerator.generate()).willReturn("1234");

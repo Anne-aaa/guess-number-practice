@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1559738e-166f-4d6b-b185-1a8c2d96fed3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/NumberGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/NumberGuesser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/GameControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/GameControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGuesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGuesserTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K1dnR5tf0P58Qqy5DSAHtHtRHs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/keyu.chen/Desktop/TDD/guess-number-practice/build.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1559738e-166f-4d6b-b185-1a8c2d96fed3" name="Changes" comment="" />
+      <created>1673146190375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673146190375</updated>
+      <workItem from="1673146191539" duration="693000" />
+      <workItem from="1673147007224" duration="233000" />
+      <workItem from="1673147306966" duration="17757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

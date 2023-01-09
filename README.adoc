@@ -44,3 +44,25 @@ image::https://github.com/kbyyd24/guess-number-practice/workflows/day-1/badge.sv
 |===
 
 答案在游戏开始时随机生成。输入只有6次机会，在每次猜测时，程序应给出当前猜测的结果，以及之前所有猜测的数字和结果以供玩家参考。
+
+一、逻辑抽出来
+重构前：
+NumberGuesser:
+在{..}里面做:1、转成String对象流 2、做逻辑判断，一个一个比较字符是否正确以及是否在正确的位置上.
+Map<String,Long> xx = IntStream.range(,).mapToObj(i->{..})
+    .filter() .collect(groupingBy(identity(),counting()))
+
+重构后：
+走到数字正确后：根据数字是否在正确的位置上分类，并count。把A、B的数目分别赋给FinalResult
+
+Map<Boolean,Long> xx=IntStream.range(,)
+    .filter().boxed.collect(partitioningBy(digitIsCorrect(),counting))
+
+重构后，把判断逻辑当作方法抽出去了。
+
+二、逻辑里面的语法重构
+重构前：
+分别将String类型的answer和guessed进行charAt，然后用.indexOf() 返回字符在字符串中第一次出现处的索引
+
+重构后：
+answer做成List<Character>,通过List.get()的方法来获取其中的字符。避免了一个一个charAt

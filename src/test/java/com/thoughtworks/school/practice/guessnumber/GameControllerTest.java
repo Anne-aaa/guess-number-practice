@@ -21,13 +21,18 @@ class GameControllerTest {
   @InjectMocks
   private GameController gameController;
 
+  //Test1 ✅
   @Test
   void should_return_current_result_when_guess() {
+    //假设1234，返回的result是4A0B
     String guessedNumber = "1234";
+    //Mock的返回为空，所以在这里设定其返回值。这里只测GameController的guess,所以跳过NumberGuesser的guess
     given(numberGuesser.guess(guessedNumber)).willReturn("4A0B");
 
+    //调用方法。由于用了@InjectMocks注解，这里的numberGuesser就被注入到gameController里了
     GameResult result = gameController.guess(guessedNumber);
 
+    //断言
     assertThat(result.getCurrent()).isEqualTo("4A0B");
   }
 
@@ -35,6 +40,7 @@ class GameControllerTest {
   void should_return_previous_input_and_result_when_guess() {
     String guessedNumber = "1236";
     given(numberGuesser.guess(guessedNumber)).willReturn("3A0B");
+    //相当于这里的GameResult是：3A0B(previous) 3A0B(current)
     gameController.guess(guessedNumber);
 
     GameResult result = gameController.guess(guessedNumber);
@@ -49,8 +55,10 @@ class GameControllerTest {
     given(numberGuesser.guess(guessedNumber)).willReturn("3A0B");
     IntStream.range(0,6).forEach(i -> gameController.guess(guessedNumber));
 
+    //这里再猜一次，就相当于超了
     gameController.guess(guessedNumber);
 
+    //校验调用guess方法的次数。"Mockito verify常见用法"
     verify(numberGuesser, times(6)).guess(guessedNumber);
   }
 }

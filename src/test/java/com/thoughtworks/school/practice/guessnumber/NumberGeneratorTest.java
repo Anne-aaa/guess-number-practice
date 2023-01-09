@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class NumberGeneratorTest {
 
+  //验证有4个数字且都不一样
   @Test
   void should_generate_number_with_four_digits_and_each_of_them_are_different() {
     NumberGenerator generator = new NumberGenerator();
@@ -16,6 +17,7 @@ class NumberGeneratorTest {
     assertThat(number.chars().distinct()).hasSize(4);
   }
 
+  //??
   @Test
   void should_generate_different_number_when_generate_number_each_time() {
     NumberGenerator generator = new NumberGenerator();

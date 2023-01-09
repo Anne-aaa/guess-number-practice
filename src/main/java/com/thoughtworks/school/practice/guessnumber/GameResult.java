@@ -2,6 +2,7 @@ package com.thoughtworks.school.practice.guessnumber;
 
 import java.util.List;
 
+//GameResult: current+previous()
 public class GameResult {
 
   private String current;
@@ -20,6 +21,7 @@ public class GameResult {
     return previous;
   }
 
+  //Result: input(eg.1234)+result(eg.4A0B)
   public static class Result {
 
     private String input;
