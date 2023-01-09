@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1559738e-166f-4d6b-b185-1a8c2d96fed3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/NumberGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/NumberGuesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/GameControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/GameControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGuesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/NumberGuesserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
       <updated>1673146190375</updated>
       <workItem from="1673146191539" duration="693000" />
       <workItem from="1673147007224" duration="233000" />
-      <workItem from="1673147306966" duration="17757000" />
+      <workItem from="1673147306966" duration="18123000" />
     </task>
     <servers />
   </component>
