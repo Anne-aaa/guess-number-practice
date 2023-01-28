@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1559738e-166f-4d6b-b185-1a8c2d96fed3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/before/GameControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/before/GameControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/before/NumberGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/before/NumberGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/before/NumberGuesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/before/NumberGuesserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +72,137 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/before" />
       <recent name="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/before" />
       <recent name="$PROJECT_DIR$/src/main/before" />
       <recent name="$PROJECT_DIR$/src/main/beforetest" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AnswerTest.should_throw_exception_given_1233">
+    <configuration name="AnswerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnswerTest.should_return_0_correct_4_position_when_answer_is_1234_and_given_4321" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_return_0_correct_4_position_when_answer_is_1234_and_given_4321&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnswerTest.should_return_1_correct_0_position_when_answer_is_1234_and_given_1567" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_return_1_correct_0_position_when_answer_is_1234_and_given_1567&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnswerTest.should_return_4_correct_0_position_when_answer_is_1234_and_given_1234" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_return_4_correct_0_position_when_answer_is_1234_and_given_1234&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AnswerTest.should_throw_exception_given_1233" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_throw_exception_given_1233&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AnswerTest.should_throw_exception_given_1233" />
+        <item itemvalue="Gradle.AnswerTest.should_return_0_correct_4_position_when_answer_is_1234_and_given_4321" />
+        <item itemvalue="Gradle.AnswerTest.should_return_4_correct_0_position_when_answer_is_1234_and_given_1234" />
+        <item itemvalue="Gradle.AnswerTest.should_return_1_correct_0_position_when_answer_is_1234_and_given_1567" />
+        <item itemvalue="Gradle.AnswerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +215,7 @@
       <workItem from="1673146191539" duration="693000" />
       <workItem from="1673147007224" duration="233000" />
       <workItem from="1673147306966" duration="21409000" />
-      <workItem from="1674869377241" duration="14912000" />
+      <workItem from="1674869377241" duration="17285000" />
     </task>
     <servers />
   </component>

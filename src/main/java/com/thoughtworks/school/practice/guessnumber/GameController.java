@@ -12,12 +12,10 @@ public class GameController {
     FormatResult formatResult;
     List<Result> previousResult=new ArrayList<>();
     Boolean alreadyWin=false;
-    String guessNumber;
     public GameController(Answer answer,FormatResult formatResult){
         this.answer=answer;
         this.formatResult=formatResult;
     }
-    CheckResult checkResult=answer.check(toCharList(guessNumber));
 
     private List<Character> toCharList(String guessNumber) {
         return guessNumber.chars().mapToObj(i->(char) i).collect(Collectors.toList());
@@ -39,7 +37,7 @@ public class GameController {
 
     private String formatAndCheckResult(String guessNumber) {
         try{
-            return formatResult.format(checkResult);
+            return formatResult.format(answer.check(toCharList(guessNumber)));
         }catch (RuntimeException e){
             return "Wrong input,input again";
         }
