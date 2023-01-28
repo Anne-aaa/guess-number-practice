@@ -24,15 +24,16 @@ public class GameController {
     }
 
     public AllResult guess(String guessNumber){
+        String message=null;
         if(alreadyWin||previousResult.size()>=MAX_GAME_ROUND){
             throw new RuntimeException();
         }
-        previousResult.add(new Result(guessNumber));
         String currentResult=formatAndCheckResult(guessNumber);
         if(currentResult.equals("4A0B")){
-            System.out.println("Congratulations, you win !");
+            message="Congratulations, you win !";
             alreadyWin = true;
         }
+        previousResult.add(new Result(guessNumber,message));
         return new AllResult(currentResult,previousResult);
     }
 

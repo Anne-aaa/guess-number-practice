@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1559738e-166f-4d6b-b185-1a8c2d96fed3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/Result.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/thoughtworks/school/practice/guessnumber/before" />
       <recent name="$PROJECT_DIR$/src/main/before" />
       <recent name="$PROJECT_DIR$/src/main/beforetest" />
     </key>
@@ -85,7 +83,7 @@
       <workItem from="1673146191539" duration="693000" />
       <workItem from="1673147007224" duration="233000" />
       <workItem from="1673147306966" duration="21409000" />
-      <workItem from="1674869377241" duration="14267000" />
+      <workItem from="1674869377241" duration="14912000" />
     </task>
     <servers />
   </component>
