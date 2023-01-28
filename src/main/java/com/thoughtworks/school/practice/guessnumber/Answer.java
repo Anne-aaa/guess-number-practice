@@ -20,7 +20,7 @@ public class Answer {
         this.answer=numberGenerator.generate().chars().mapToObj(i->(char)i).collect(Collectors.toList());
     }
 
-    public void check(List<Character> guessNumber){
+    public CheckResult check(List<Character> guessNumber){
         //长度不对抛出错误：判断previous的长度❌（这是用了判断几轮） 通过去重判断
         if(guessNumber.stream().distinct().count()!=ANSWER_SIZE){
             throw new RuntimeException();
@@ -36,7 +36,7 @@ public class Answer {
                 .boxed()
                 //根据位置对不对分类
                 .collect(partitioningBy(digitIsInCorrectPosition(guessNumber),counting()));
-
+        return new CheckResult(correctAndWrongPositionCounts.get(Boolean.TRUE),correctAndWrongPositionCounts.get(Boolean.FALSE));
     }
     public IntPredicate digitIsNotInAnswer(List<Character> guessNumber){
         return idx->answer.contains(guessNumber.get(idx));
