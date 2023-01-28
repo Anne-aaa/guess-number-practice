@@ -45,6 +45,7 @@ image::https://github.com/kbyyd24/guess-number-practice/workflows/day-1/badge.sv
 
 答案在游戏开始时随机生成。输入只有6次机会，在每次猜测时，程序应给出当前猜测的结果，以及之前所有猜测的数字和结果以供玩家参考。
 
+【理解】
 一、关于Controller部分：
 逻辑抽出来
 重构前：
@@ -91,3 +92,8 @@ ResultFormatter类： format方法会返回固定格式的String，RuntimeExcept
 NumberGenerator类：generate方法生成满足需求的答案
 
 Controller层：guess方法返回GuessResult，这里会对previous的大小进行判断（设置previous的作用）
+
+TDD:
+1、Entity
+2、一轮
+3、六轮
