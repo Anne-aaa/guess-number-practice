@@ -1,3 +1,4 @@
+/*
 package com.thoughtworks.school.practice.guessnumber;
 
 import java.util.List;
@@ -40,3 +41,4 @@ public class NumberGuesser_Refactor {
         return idx ->answer.get(idx).equals(guessed.get(idx));
     }
 }
+*/

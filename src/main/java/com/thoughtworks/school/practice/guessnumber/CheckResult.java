@@ -7,4 +7,11 @@ public class CheckResult {
         this.correctCount=correctCount;
         this.wrongCount=wrongCount;
     }
+    public Long getCorrectCount() {
+        return correctCount;
+    }
+
+    public Long getWrongCount() {
+        return wrongCount;
+    }
 }

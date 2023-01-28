@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1559738e-166f-4d6b-b185-1a8c2d96fed3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/CheckResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/CheckResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameController_Refactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/GameResult_Refactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/NumberGuesser_Refactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/before/NumberGuesser_Refactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thoughtworks/school/practice/guessnumber/Result_Refactor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +72,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/beforetest" />
       <recent name="$PROJECT_DIR$/src/main/before" />
+      <recent name="$PROJECT_DIR$/src/main/beforetest" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +87,7 @@
       <workItem from="1673146191539" duration="693000" />
       <workItem from="1673147007224" duration="233000" />
       <workItem from="1673147306966" duration="21409000" />
-      <workItem from="1674869377241" duration="9345000" />
+      <workItem from="1674869377241" duration="11902000" />
     </task>
     <servers />
   </component>
