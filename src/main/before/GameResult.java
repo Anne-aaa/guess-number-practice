@@ -1,3 +1,4 @@
+/*
 package com.thoughtworks.school.practice.guessnumber;
 
 import java.util.List;
@@ -41,3 +42,4 @@ public class GameResult {
     }
   }
 }
+ */

@@ -1,3 +1,4 @@
+/*
 package com.thoughtworks.school.practice.guessnumber;
 
 import com.thoughtworks.school.practice.guessnumber.GameResult.Result;
@@ -8,11 +9,12 @@ import java.util.List;
 public class GameController {
 
   private static final int LIMITED_GAME_ROUND = 6;
+  //numberguesser获得1A0B
   private final NumberGuesser numberGuesser;
   //所有Result的集合
   private List<Result> previousResult = new ArrayList<>();
 
-  //写这么一句是为了？
+  //写这么一句是为了注入
   public GameController(NumberGuesser numberGuesser) {
     this.numberGuesser = numberGuesser;
   }
@@ -28,9 +30,12 @@ public class GameController {
     //当前result
     String currentResult = numberGuesser.guess(guessedNumber);
 
+
     previousResult.add(new Result(guessedNumber, currentResult));
 
     //这里的GameResult是所有Result的集合
     return new GameResult(currentResult, previous);
   }
 }
+
+ */

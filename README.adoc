@@ -45,7 +45,8 @@ image::https://github.com/kbyyd24/guess-number-practice/workflows/day-1/badge.sv
 
 答案在游戏开始时随机生成。输入只有6次机会，在每次猜测时，程序应给出当前猜测的结果，以及之前所有猜测的数字和结果以供玩家参考。
 
-一、逻辑抽出来
+一、关于Controller部分：
+逻辑抽出来
 重构前：
 NumberGuesser:
 在{..}里面做:1、转成String对象流 2、做逻辑判断，一个一个比较字符是否正确以及是否在正确的位置上.
@@ -60,9 +61,33 @@ Map<Boolean,Long> xx=IntStream.range(,)
 
 重构后，把判断逻辑当作方法抽出去了。
 
-二、逻辑里面的语法重构
+逻辑里面的语法重构
 重构前：
 分别将String类型的answer和guessed进行charAt，然后用.indexOf() 返回字符在字符串中第一次出现处的索引
 
 重构后：
 answer做成List<Character>,通过List.get()的方法来获取其中的字符。避免了一个一个charAt
+
+二、关于Result部分：
+重构前：
+GameResult=String cuurent+ List<Result> Previous
+current result是String:由guess生成
+Result=String input(guessedNumber)+String result(current result) 真正的结果由输入+输出生成
+最终的结果是进行追加
+
+重构后：
+逻辑是一样的，加了一个RuntimeException
+
+
+总体逻辑架构：
+Entity:
+OneGuessResult 可以获得(String)input (String)output
+GuessResult 可以获得(String)current (List<OneGuessResult>)previous (String) message
+CheckResult 可以获得(long)correctCount (long)wrongPositionCount
+
+Answer类： check方法返回CheckResult
+ResultFormatter类： format方法会返回固定格式的String，RuntimeException会被其他地方捕捉到"Wrong input.."
+
+NumberGenerator类：generate方法生成满足需求的答案
+
+Controller层：guess方法返回GuessResult，这里会对previous的大小进行判断（设置previous的作用）
