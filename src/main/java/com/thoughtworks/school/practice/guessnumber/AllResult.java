@@ -10,4 +10,12 @@ public class AllResult {
         this.currentresult=currentresult;
         this.previousResult=previousResult;
     }
+
+    public String getCurrentresult() {
+        return currentresult;
+    }
+
+    public List<Result> getPreviousResult() {
+        return previousResult;
+    }
 }

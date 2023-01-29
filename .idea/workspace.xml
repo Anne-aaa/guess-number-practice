@@ -76,8 +76,8 @@
       <recent name="$PROJECT_DIR$/src/main/beforetest" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NumberGeneratorTest.should_generate_number_with_four_digits_and_they_are_different">
-    <configuration name="AnswerTest.should_return_0_correct_4_position_when_answer_is_1234_and_given_4321" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GameControllerTest">
+    <configuration name="GameControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -90,7 +90,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_return_0_correct_4_position_when_answer_is_1234_and_given_4321&quot;" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.GameControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,7 +100,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnswerTest.should_throw_exception_given_1233" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameControllerTest.should_generate_number_with_four_digits_and_they_are_different" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +113,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_throw_exception_given_1233&quot;" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.GameControllerTest.should_generate_number_with_four_digits_and_they_are_different&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -123,7 +123,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnswerTest.should_throw_exception_given_12345" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameControllerTest.should_return_0_correct_3_wrong_position_when_answer_is_1234_and_given_2345" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +136,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.thoughtworks.school.practice.guessnumber.AnswerTest.should_throw_exception_given_12345&quot;" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.GameControllerTest.should_return_0_correct_3_wrong_position_when_answer_is_1234_and_given_2345&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,7 +146,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NumberGeneratorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameControllerTest.should_return_formatted_result" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +159,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.thoughtworks.school.practice.guessnumber.NumberGeneratorTest&quot;" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.GameControllerTest.should_return_formatted_result&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="NumberGeneratorTest.should_generate_number_with_four_digits_and_they_are_different" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NumberGeneratorTest.should_generate_different_number_when_each_time_to_generate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.thoughtworks.school.practice.guessnumber.NumberGeneratorTest.should_generate_number_with_four_digits_and_they_are_different&quot;" />
+            <option value="&quot;com.thoughtworks.school.practice.guessnumber.NumberGeneratorTest.should_generate_different_number_when_each_time_to_generate&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NumberGeneratorTest.should_generate_number_with_four_digits_and_they_are_different" />
-        <item itemvalue="Gradle.NumberGeneratorTest" />
-        <item itemvalue="Gradle.AnswerTest.should_throw_exception_given_12345" />
-        <item itemvalue="Gradle.AnswerTest.should_throw_exception_given_1233" />
-        <item itemvalue="Gradle.AnswerTest.should_return_0_correct_4_position_when_answer_is_1234_and_given_4321" />
+        <item itemvalue="Gradle.GameControllerTest" />
+        <item itemvalue="Gradle.GameControllerTest.should_return_formatted_result" />
+        <item itemvalue="Gradle.GameControllerTest.should_return_0_correct_3_wrong_position_when_answer_is_1234_and_given_2345" />
+        <item itemvalue="Gradle.GameControllerTest.should_generate_number_with_four_digits_and_they_are_different" />
+        <item itemvalue="Gradle.NumberGeneratorTest.should_generate_different_number_when_each_time_to_generate" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,7 @@
       <workItem from="1673146191539" duration="693000" />
       <workItem from="1673147007224" duration="233000" />
       <workItem from="1673147306966" duration="21409000" />
-      <workItem from="1674869377241" duration="18598000" />
+      <workItem from="1674869377241" duration="20149000" />
     </task>
     <servers />
   </component>
